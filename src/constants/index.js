@@ -34,3 +34,9 @@ export const PROJECTS = [
         technologies: ["React.js"]
     }
 ]
+
+export const CONTACT_DETAILS = {
+    address: "Toshkent",
+    phoneNumber: "+998 33 484 5656",
+    email: "saidakbarov077@gmail.com"
+}
