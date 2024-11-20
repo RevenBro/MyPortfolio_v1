@@ -5,7 +5,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Technologies from './components/Technologies'
-import About from './components/about'
+import About from './components/About'
 
 function App() {
   return (
