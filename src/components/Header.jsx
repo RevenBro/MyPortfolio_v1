@@ -1,4 +1,4 @@
-import Logo from "../assets/images/logo.png"
+import Logo from "../assets/images/logo.jpg"
 import { FaLinkedin, FaGithub, FaTelegram, FaInstagram } from "react-icons/fa"
 
 const Header = () => {
@@ -9,10 +9,21 @@ const Header = () => {
         </div>
 
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+          <a target="_blank" href="https://linkedin.com">
             <FaLinkedin/>
+          </a>
+          <a target="_blank" href="https://github.com/RevenBro">
             <FaGithub/>
+          </a>
+          <a target="_blank" href="https://t.me/Saidakbarovv_A">
             <FaTelegram/>
+          </a>
+          <a target="_blank" href="https://ig.me/abdullakh__bro">
             <FaInstagram/>
+          </a>
+            
+            
+            
         </div>
     </nav>
   )
